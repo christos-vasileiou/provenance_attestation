@@ -1,0 +1,3 @@
+#!/bin/bash
+ml rm python2
+python nsga-wgan.py --n_epochs=200 --max_gen=20

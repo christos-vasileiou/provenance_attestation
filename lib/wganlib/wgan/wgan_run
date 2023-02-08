@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "###################################### WGAN Training is started! 16 Mask-Sets #######################################################"
+wandb online
+#python w_train_per_maskset.py --n_epochs=150 --batch_size=64 --nchan=512 --ndf=512 --critic_iter=5 --hypercube=True --load_model=2/12msks-Generator-Generator-Etest-2-critic5-epochs1300-final.pt
+python w_train_per_maskset.py --n_epochs=750 --batch_size=64 --nchan=512 --ndf=512 --critic_iter=5 --hypercube=False --type=2
+echo
+echo "###################################### Finish! ############################################"
