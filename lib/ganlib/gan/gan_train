@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "###################################### GAN Training is started! 16 Mask-Sets #######################################################"
+wandb online
+python train_per_maskset.py --n_epochs=400 --batch_size=64 --nchan=512 --ndf=512
+echo
+echo "###################################### Finish! ############################################"
