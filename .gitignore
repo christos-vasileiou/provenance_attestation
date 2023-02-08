@@ -1,0 +1,38 @@
+# folder
+presentations/
+.idea/
+lib/*/*.egg-info
+lib/*/*/__pycache__/*
+lib/*/*/*/__pycache__/*
+
+# scripts and notebooks
+scripts/data
+scripts/.ipynb_checkpoints/
+scripts/*.ipynb
+scripts/Notes.docx
+scripts/trained_models
+scripts/animation
+scripts/QE
+scripts/enhanced_dataset
+scripts/trained_models
+scripts/*.html
+scripts/*.csv
+scripts/*.jpg
+scripts/*.png
+
+# files
+GF_Data.pdf
+tensorboard
+*-k-clusters
+
+# outputs
+output
+
+# data
+data
+
+#remaining
+*.ipynb
+f1-vs-f2.png
+provenance_attestation.url
+lib/*/*/wandb/*
